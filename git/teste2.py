@@ -17,7 +17,7 @@ def print_hello():
 
 # Cria uma tarefa que executa a função acima
 hello_task = PythonOperator(
-    task_id='teste de deg github',
+    task_id='teste_github',
     python_callable=print_hello,
     dag=dag,
 )
