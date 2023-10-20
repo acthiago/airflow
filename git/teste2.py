@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Defina os parâmetros da DAG
 default_args = {
-    'owner': 'Thiago Cordeiro',
+    'owner': 'ThiagoCordeiro',
     'start_date': datetime(2023, 10, 20),
 }
 
